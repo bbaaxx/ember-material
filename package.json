@@ -1,6 +1,6 @@
 {
   "name": "ember-material",
-  "version": "0.0.0",
+  "version": "0.0.55555",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -14,7 +14,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "bbaaxx@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
@@ -33,7 +33,12 @@
   },
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "material design",
+    "web starter kit",
+    "wsk",
+    "ember paper",
+    "ember material design"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
