@@ -1,4 +1,5 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
-});
+import wskButton from 'ember-material/components/wsk-button';
+
+export default wskButton;
