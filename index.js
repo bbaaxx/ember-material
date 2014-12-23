@@ -2,5 +2,11 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-material'
+  
+  name: 'ember-material',
+  
+  included: function(app){
+    app.import('vendor/wsk/styles/main.css');
+  }
+
 };
