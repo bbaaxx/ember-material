@@ -10,14 +10,14 @@ components wrapping/adapting the vanilla javascript that powers the material
 design elements included in the future release of Google's 
 [Web Starter Kit](https://github.com/google/web-starter-kit/).
 
-The aim if this project is to keep some compatibility with the default WSK,
-if you need something that replaces the javascript with more native ember
-code check [ember-paper](https://github.com/miguelcobain/ember-paper).
+The aim if this project is to keep compatibility with the default WSK,
+if you need something more emberish have a look at [ember-paper](https://github.com/miguelcobain/ember-paper).
 
 ## Current version
 v0.1.0 - Initial version
   * button, card, column-layout, item, shadow elements
   * ripple and shadow mixins
+  * extra: animated hamburger icon.
 
 ## Installation
 From the root fo your ember-cli project do:
@@ -126,12 +126,13 @@ Issues and PR's are welcome, the information below will be useful to you:
 ### Development setup
 
 #### Requirements
-  -Node js
-  -Bower
-  -node-sass-cli (globally for scripting)
+
+*Node js
+*Bower
+*node-sass-cli (globally for scripting)
 
 *NOTE: for now, you need to install node-sass-cli for the wsk styles, I hope I 
-find a better way to build soon  
+find a better way to build these soon  
 
 * `git clone` this repository
 * `npm install`
